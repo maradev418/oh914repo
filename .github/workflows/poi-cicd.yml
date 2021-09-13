@@ -2,12 +2,12 @@ name: POI CICD
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
     paths:
       - apis/poi/poi.sln/**
       - .github/workflows/poi-cicd.yml
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
     paths:
       - apis/poi/poi.sln/**
       - .github/workflows/poi-cicd.yml
