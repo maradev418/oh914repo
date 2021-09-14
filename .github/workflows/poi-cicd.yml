@@ -13,12 +13,12 @@ env:
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
     paths: 
       - apis/poi/**  
       - .github/workflows/poi-cicd.yml
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
     paths: 
       - apis/poi/**
       - .github/workflows/poi-cicd.yml
